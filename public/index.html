@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPY-NEXUS | OSINT COMMAND</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background: #0a0a0a; color: #fff; font-family: 'Space Mono', monospace; }
+        .neo-brutal { 
+            border: 4px solid #000; 
+            box-shadow: 6px 6px 0px #ff0055; 
+            transition: 0.2s;
+        }
+        .neo-brutal:hover { transform: translate(-3px, -3px); box-shadow: 10px 10px 0px #00f2ff; }
+        .sidebar { background: #facc15; border-right: 6px solid #000; }
+        .cat-btn { border-bottom: 3px solid #000; color: #000; font-weight: 900; }
+        .cat-btn:hover { background: #000; color: #facc15; }
+        .glitch { text-shadow: 2px 2px #ff0055, -2px -2px #00f2ff; font-style: italic; }
+    </style>
+</head>
+<body class="flex flex-col md:flex-row h-screen">
+
+    <aside class="sidebar w-full md:w-64 p-6 overflow-y-auto">
+        <h1 class="text-3xl font-black mb-8 glitch text-black">SPY-NEXUS</h1>
+        <div id="nav-cats"></div>
+    </aside>
+
+    <main class="flex-1 p-8 overflow-y-auto">
+        <div class="border-b-4 border-white mb-10 pb-4">
+            <h2 class="text-5xl font-black uppercase">Command Center</h2>
+            <p id="stats" class="text-cyan-400 font-bold mt-2 italic">SCANNING DATABASE...</p>
+        </div>
+        <div id="grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+    </main>
+
+    <script>
+        async function init() {
+            const res = await fetch('tools.json');
+            const data = await res.json();
+            const grid = document.getElementById('grid');
+            const nav = document.getElementById('nav-cats');
+            let total = 0;
+
+            data.categories.forEach(cat => {
+                // Sidebar Nav
+                const btn = document.createElement('div');
+                btn.className = 'cat-btn p-3 cursor-pointer uppercase text-sm mb-2';
+                btn.innerHTML = `${cat.icon} ${cat.name}`;
+                btn.onclick = () => filterTools(cat.name, data.categories);
+                nav.appendChild(btn);
+
+                // Grid Tools
+                cat.links.forEach(link => {
+                    total++;
+                    const card = document.createElement('div');
+                    card.className = `neo-brutal p-5 bg-white text-black flex flex-col justify-between tool-card cat-${cat.name.replace(/\s/g, '')}`;
+                    card.innerHTML = `
+                        <div>
+                            <span class="text-[10px] font-black bg-black text-white px-2 py-1 uppercase">${cat.name}</span>
+                            <h3 class="text-xl font-black mt-3 mb-1 uppercase">${link.name}</h3>
+                            <p class="text-xs font-bold text-gray-500 mb-4">${link.desc}</p>
+                        </div>
+                        <a href="${link.url}" target="_blank" class="bg-black text-white text-center py-2 font-black text-xs hover:bg-pink-600 transition">LAUNCH_RECON ➔</a>
+                    `;
+                    grid.appendChild(card);
+                });
+            });
+            document.getElementById('stats').innerText = `SYSTEM READY | LOADED ${total} ANALYTICAL TOOLS`;
+        }
+
+        function filterTools(name, cats) {
+            const cards = document.querySelectorAll('.tool-card');
+            cards.forEach(c => {
+                c.style.display = c.classList.contains(`cat-${name.replace(/\s/g, '')}`) ? 'flex' : 'none';
+            });
+        }
+        init();
+    </script>
+</body>
+</html>
