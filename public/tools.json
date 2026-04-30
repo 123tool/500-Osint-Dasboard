@@ -1,0 +1,60 @@
+{
+  "categories": [
+    {
+      "name": "Username Recon",
+      "icon": "👤",
+      "links": [
+        {"name": "Sherlock", "url": "https://sherlock-project.github.io/", "desc": "Search social media accounts by username."},
+        {"name": "WhatsMyName", "url": "https://whatsmyname.app/", "desc": "Powerful username enumeration."},
+        {"name": "Namechk", "url": "https://namechk.com/", "desc": "Check username availability across domains/socials."},
+        {"name": "Knowem", "url": "https://knowem.com/", "desc": "Search 500+ social networks for usernames."},
+        {"name": "Maigret", "url": "https://maigret.guru/", "desc": "Advanced username investigation."},
+        {"name": "UserSearch.org", "url": "https://usersearch.org/", "desc": "Deep search social media profiles."},
+        {"name": "CheckUserNames", "url": "https://checkusernames.com/", "desc": "Search 160+ social websites."},
+        {"name": "Blackbird", "url": "https://github.com/p1ngul1n0/blackbird", "desc": "OSINT tool for searching users."},
+        {"name": "Social-Searcher", "url": "https://www.social-searcher.com/", "desc": "Real-time social media search engine."}
+      ]
+    },
+    {
+      "name": "Phone Intelligence",
+      "icon": "📞",
+      "links": [
+        {"name": "TrueCaller", "url": "https://www.truecaller.com/", "desc": "Global Caller ID database."},
+        {"name": "Sync.ME", "url": "https://sync.me/", "desc": "Reverse phone lookup & social ID."},
+        {"name": "NumLookup", "url": "https://www.numlookup.com/", "desc": "Free reverse phone lookup (US/Intl)."},
+        {"name": "WhitePages", "url": "https://www.whitepages.com/", "desc": "Find people and phone numbers."},
+        {"name": "SpyDialer", "url": "https://www.spydialer.com/", "desc": "Sneaky reverse phone lookup."},
+        {"name": "Zabasearch", "url": "https://www.zabasearch.com/", "desc": "Public records and phone search."},
+        {"name": "EmobileTracker", "url": "https://www.emobiletracker.com/", "desc": "Track mobile number location."},
+        {"name": "OkCaller", "style": "https://www.okcaller.com/", "desc": "Comprehensive phone directory."}
+      ]
+    },
+    {
+      "name": "Email Intelligence",
+      "icon": "📧",
+      "links": [
+        {"name": "HaveIBeenPwned", "url": "https://haveibeenpwned.com/", "desc": "Check data breaches by email."},
+        {"name": "Hunter.io", "url": "https://hunter.io/", "desc": "Find professional emails by domain."},
+        {"name": "Eppi.io", "url": "https://eppi.io/", "desc": "Leak search & email reputation."},
+        {"name": "EmailHippo", "url": "https://emailhippo.com/", "desc": "Verify email address validity."},
+        {"name": "VoilaNorbert", "url": "https://www.voilanorbert.com/", "desc": "Find anyone's email address."},
+        {"name": "DeHash", "url": "https://www.dehash.to/", "desc": "Search leaked databases for free."},
+        {"name": "Intelligence X", "url": "https://intelx.io/", "desc": "Search Tor, I2P, and data leaks."},
+        {"name": "Skymem", "url": "https://www.skymem.info/", "desc": "Find emails from companies."}
+      ]
+    },
+    {
+      "name": "IP & Domain Analysis",
+      "icon": "🌐",
+      "links": [
+        {"name": "Shodan", "url": "https://www.shodan.io/", "desc": "Search engine for IoT & devices."},
+        {"name": "Censys", "url": "https://censys.io/", "desc": "Analyze internet-wide infrastructure."},
+        {"name": "Who.is", "url": "https://who.is/", "desc": "Domain WHOIS lookup."},
+        {"name": "ViewDNS", "url": "https://viewdns.info/", "desc": "All-in-one DNS toolset."},
+        {"name": "IP-Adress.com", "url": "https://www.ip-adress.com/", "desc": "IP location and tracking."},
+        {"name": "Criminal IP", "url": "https://www.criminalip.io/", "desc": "OSINT based search engine."},
+        {"name": "VirusTotal", "url": "https://www.virustotal.com/", "desc": "Analyze suspicious files/IPs."}
+      ]
+    }
+  ]
+}
