@@ -55,6 +55,349 @@
         {"name": "Criminal IP", "url": "https://www.criminalip.io/", "desc": "OSINT based search engine."},
         {"name": "VirusTotal", "url": "https://www.virustotal.com/", "desc": "Analyze suspicious files/IPs."}
       ]
+    },
+    {
+      "name": "Social Media OSINT",
+      "icon": "📱",
+      "links": [
+        {"name": "Inflact", "url": "https://inflact.com/tools/instagram-search/", "desc": "Deep search Instagram profiles and content."},
+        {"name": "Dumpoir", "url": "https://dumpoir.com/", "desc": "Anonymous Instagram story and profile viewer."},
+        {"name": "SocialBlade", "url": "https://socialblade.com/", "desc": "Track user statistics for YouTube, Twitch, and IG."},
+        {"name": "TikTok DB", "url": "https://www.tiktok.com/search/user", "desc": "Direct access for TikTok user discovery."},
+        {"name": "ExportComments", "url": "https://exportcomments.com/", "desc": "Extract comments from social media posts for analysis."},
+        {"name": "Trends24", "url": "https://trends24.in/", "desc": "Historical Twitter (X) trends by hour and country."},
+        {"name": "AccountAnalysis", "url": "https://accountanalysis.app/", "desc": "Detailed analysis of Twitter (X) accounts."},
+        {"name": "Lookup-ID", "url": "https://lookup-id.com/", "desc": "Find Facebook personal ID for OSINT tools."},
+        {"name": "Foller.me", "url": "https://foller.me/", "desc": "Twitter analytics: join date, followers, and activity."}
+      ]
+    },
+    {
+      "name": "Geospatial & Maps",
+      "icon": "🌍",
+      "links": [
+        {"name": "Wikimapia", "url": "http://wikimapia.org/", "desc": "Open-content collaborative map of the whole world."},
+        {"name": "OpenStreetMap", "url": "https://www.openstreetmap.org/", "desc": "Detailed community-driven map data."},
+        {"name": "Sentinel Hub", "url": "https://apps.sentinel-hub.com/eo-browser/", "desc": "Access high-res satellite imagery in real-time."},
+        {"name": "Zoom Earth", "url": "https://zoom.earth/", "desc": "Live weather maps and satellite tracking."},
+        {"name": "Dual Maps", "url": "https://www.mapillary.com/app/", "desc": "Street-level imagery at a global scale."},
+        {"name": "Flickr Map", "url": "https://www.flickr.com/map", "desc": "Find photos taken at specific geo-coordinates."},
+        {"name": "PeakVisor", "url": "https://peakvisor.com/", "desc": "Identify mountains and peaks via terrain analysis."},
+        {"name": "SunCalc", "url": "https://www.suncalc.org/", "desc": "Calculate sun position and shadows for geolocation."}
+      ]
+    },
+    {
+      "name": "Public Records & Docs",
+      "icon": "📄",
+      "links": [
+        {"name": "OpenCorporates", "url": "https://opencorporates.com/", "desc": "The largest open database of companies in the world."},
+        {"name": "DocumentCloud", "url": "https://www.documentcloud.org/", "desc": "Search public documents and investigative papers."},
+        {"name": "PACER", "url": "https://pacer.uscourts.gov/", "desc": "US Federal Court records access."},
+        {"name": "OCCRP Aleph", "url": "https://aleph.occrp.org/", "desc": "Search massive leaks and public investigations."},
+        {"name": "Offshore Leaks", "url": "https://offshoreleaks.icij.org/", "desc": "Search Panama Papers and Paradise Papers databases."},
+        {"name": "Recap", "url": "https://www.courtlistener.com/recap/", "desc": "Free archive of PACER court documents."}
+      ]
+    },
+    {
+      "name": "Dark Web & Leaks",
+      "icon": "🕷️",
+      "links": [
+        {"name": "Tor2Web", "url": "https://www.tor2web.org/", "desc": "Access .onion sites without Tor browser."},
+        {"name": "Ahmia.fi", "url": "https://ahmia.fi/", "desc": "Search engine for the hidden Tor network."},
+        {"name": "DarkSearch", "url": "https://darksearch.io/", "desc": "Real-time dark web search engine."},
+        {"name": "H8mail", "url": "https://github.com/khast3ze/h8mail", "desc": "Password breach search tool (local/API)."},
+        {"name": "Snusbase", "url": "https://snusbase.com/", "desc": "Search database leaks by email/IP/username."}
+      ]
+    },
+    {
+      "name": "Transportation Tracking",
+      "icon": "✈️",
+      "links": [
+        {"name": "FlightRadar24", "url": "https://www.flightradar24.com/", "desc": "Live flight tracker & plane spotting."},
+        {"name": "ADSB-Exchange", "url": "https://globe.adsbexchange.com/", "desc": "Unfiltered flight data (Great for military/private jets)."},
+        {"name": "MarineTraffic", "url": "https://www.marinetraffic.com/", "desc": "Global ship tracking & maritime intelligence."},
+        {"name": "VesselFinder", "url": "https://www.vesselfinder.com/", "desc": "Real-time ship positions and port calls."},
+        {"name": "FlightAware", "url": "https://flightaware.com/", "desc": "Comprehensive flight history and tracking."},
+        {"name": "RadarBox", "url": "https://www.radarbox.com/", "desc": "Alternative aircraft tracking and fleet monitoring."},
+        {"name": "Shipfinder.co", "url": "https://shipfinder.co/", "desc": "Visual AIS ship tracking data."}
+      ]
+    },
+    {
+      "name": "Crypto & Wallet Recon",
+      "icon": "💰",
+      "links": [
+        {"name": "Blockchain.com", "url": "https://www.blockchain.com/explorer", "desc": "Search BTC, ETH, and BCH transactions."},
+        {"name": "Etherscan", "url": "https://etherscan.io/", "desc": "The leading Ethereum blockchain explorer."},
+        {"name": "Breadcrumbs", "url": "https://www.breadcrumbs.app/", "desc": "Visual crypto investigation and tracing tool."},
+        {"name": "Whale Alert", "url": "https://whale-alert.io/", "desc": "Tracking large crypto movements across chains."},
+        {"name": "WalletExplorer", "url": "https://www.walletexplorer.com/", "desc": "Smart Bitcoin wallet clustering tool."},
+        {"name": "TRM Labs", "url": "https://www.trmlabs.com/", "desc": "Professional crypto crime investigation platform."},
+        {"name": "BitcoinAbuse", "url": "https://www.bitcoinabuse.com/", "desc": "Database of BTC addresses used by scammers/hackers."}
+      ]
+    },
+    {
+      "name": "Visual & Face Recon",
+      "icon": "📸",
+      "links": [
+        {"name": "PimEyes", "url": "https://pimeyes.com/", "desc": "Terrifyingly accurate face search engine."},
+        {"name": "Yandex Images", "url": "https://yandex.com/images/", "desc": "Best reverse image search for finding people."},
+        {"name": "TinEye", "url": "https://tineye.com/", "desc": "Reverse image search with version tracking."},
+        {"name": "ExifData", "url": "https://exifdata.com/", "desc": "Analyze metadata (EXIF) from photos."},
+        {"name": "Search by Image", "url": "https://github.com/danielgatis/search-by-image", "desc": "Cross-platform reverse image search tool."},
+        {"name": "Jeffrey's Image Metadata", "url": "http://exif.regex.info/exif.cgi", "desc": "Deep metadata analysis for digital forensics."},
+        {"name": "FotoForensics", "url": "https://fotoforensics.com/", "desc": "Error Level Analysis (ELA) for image tampering."}
+      ]
+    },
+    {
+      "name": "Archives & History",
+      "icon": "📜",
+      "links": [
+        {"name": "Wayback Machine", "url": "https://archive.org/web/", "desc": "View deleted or historical versions of websites."},
+        {"name": "Archive.today", "url": "https://archive.today/", "desc": "Snapshot engine that bypasses some paywalls."},
+        {"name": "CachedView", "url": "https://cachedview.com/", "desc": "Quick access to Google Cache and Bing Cache."},
+        {"name": "WhoisHistory", "url": "https://www.whoishistory.org/", "desc": "View old WHOIS records for domains."},
+        {"name": "Visualping", "url": "https://visualping.io/", "desc": "Monitor website changes in real-time."}
+      ]
+    },
+    {
+      "name": "Advanced Search Dorks",
+      "icon": "🔍",
+      "links": [
+        {"name": "Google Hacking DB", "url": "https://www.exploit-db.com/google-hacking-database", "desc": "List of dorks to find sensitive data."},
+        {"name": "DorkSearch", "url": "https://dorksearch.com/", "desc": "Visual interface for complex Google Dorks."},
+        {"name": "Shodan Dorks", "url": "https://github.com/jakejarvis/awesome-shodan-queries", "desc": "List of queries for finding vulnerable IoT."},
+        {"name": "AdvAngle", "url": "https://advangle.com/", "desc": "Advanced search query builder for OSINT."}
+      ]
+    },
+    {
+      "name": "Cyber Threat Intel (CTI)",
+      "icon": "🛡️",
+      "links": [
+        {"name": "AlienVault OTX", "url": "https://otx.alienvault.com/", "desc": "Open Threat Exchange for global threat data."},
+        {"name": "ThreatCrowd", "url": "https://www.threatcrowd.org/", "desc": "Search engine for threats: IP, domain, and email."},
+        {"name": "Pulsedive", "url": "https://pulsedive.com/", "desc": "Community-driven threat intelligence platform."},
+        {"name": "Any.Run", "url": "https://any.run/", "desc": "Interactive online malware sandbox."},
+        {"name": "Joe Sandbox", "url": "https://www.joesandbox.com/", "desc": "Deep malware analysis and cloud sandboxing."},
+        {"name": "MalwareBazaar", "url": "https://mb-api.abuse.ch/", "desc": "Database of known malware samples."},
+        {"name": "URLScan.io", "url": "https://urlscan.io/", "desc": "Analyze and scan URLs for malicious activity."}
+      ]
+    },
+    {
+      "name": "Leak & Paste Search",
+      "icon": "🔓",
+      "links": [
+        {"name": "Pastebin Search", "url": "https://psbdmp.ws/", "desc": "Search for sensitive data in pastebin sites."},
+        {"name": "Scylla.sh", "url": "https://scylla.sh/", "desc": "Database of breached credentials (API focus)."},
+        {"name": "Leak-Lookup", "url": "https://leak-lookup.com/", "desc": "Search for email/username across data breaches."},
+        {"name": "Vigilante.pw", "url": "https://vigilante.pw/", "desc": "Database of breached sites and leak records."},
+        {"name": "BreachDirectory", "url": "https://breachdirectory.org/", "desc": "Search for exposed credentials in breaches."},
+        {"name": "PasteCheck", "url": "http://pastecheck.com/", "desc": "Real-time monitoring of paste sites for keywords."}
+      ]
+    },
+    {
+      "name": "Specialized Frameworks",
+      "icon": "🏗️",
+      "links": [
+        {"name": "OSINT Framework", "url": "https://osintframework.com/", "desc": "The ultimate web-based map of OSINT tools."},
+        {"name": "Maltego", "url": "https://www.maltego.com/", "desc": "Professional tool for link analysis & graph OSINT."},
+        {"name": "SpiderFoot", "url": "https://www.spiderfoot.net/", "desc": "Automated OSINT reconnaissance tool."},
+        {"name": "PhoneInfoga", "url": "https://sundowndev.github.io/phoneinfoga/", "desc": "Advanced tool for phone number recon."},
+        {"name": "FinalRecon", "url": "https://github.com/thewhiteh4t/FinalRecon", "desc": "All-in-one web reconnaissance framework."},
+        {"name": "TheHarvester", "url": "https://github.com/laramies/theHarvester", "desc": "Email, subdomain, and names harvester."}
+      ]
+    },
+    {
+      "name": "Business & Corporate",
+      "icon": "🏢",
+      "links": [
+        {"name": "Crunchbase", "url": "https://www.crunchbase.com/", "desc": "Database of companies, founders, and funding."},
+        {"name": "D&B Business Dir", "url": "https://www.dnb.com/", "desc": "In-depth corporate records and business info."},
+        {"name": "NorthData", "url": "https://www.northdata.com/", "desc": "Visualize corporate connections and data (Europe)."},
+        {"name": "Europages", "url": "https://www.europages.com/", "desc": "B2B directory for finding company leads."},
+        {"name": "Glassdoor", "url": "https://www.glassdoor.com/", "desc": "Inside info on company culture and salary data."}
+      ]
+    },
+    {
+      "name": "News & Monitoring",
+      "icon": "📰",
+      "links": [
+        {"name": "Google News", "url": "https://news.google.com/", "desc": "Advanced news search and monitoring."},
+        {"name": "Newslookup", "url": "https://www.newslookup.com/", "desc": "Global news search engine for OSINT."},
+        {"name": "Meltwater", "url": "https://www.meltwater.com/", "desc": "Professional media monitoring & analytics."},
+        {"name": "Talkwalker Alerts", "url": "https://www.talkwalker.com/alerts", "desc": "Free alternative to Google Alerts for monitoring."}
+      ]
+    },
+    {
+      "name": "Digital Forensics",
+      "icon": "🔬",
+      "links": [
+        {"name": "Aperi'Solve", "url": "https://aperisolve.com/", "desc": "All-in-one platform for steganography analysis."},
+        {"name": "CyberChef", "url": "https://gchq.github.io/CyberChef/", "desc": "The 'Cyber Swiss Army Knife' for data manipulation."},
+        {"name": "Forensically", "url": "https://29a.ch/photo-forensics/", "desc": "Set of tools for digital image forensics."},
+        {"name": "Wapiti", "url": "https://wapiti.sourceforge.io/", "desc": "Web application vulnerability scanner."},
+        {"name": "VirusTotal Intelligence", "url": "https://www.virustotal.com/gui/intelligence-overview", "desc": "Advanced malware and file relationship hunting."},
+        {"name": "Hybrid Analysis", "url": "https://www.hybrid-analysis.com/", "desc": "Free malware analysis service and community database."}
+      ]
+    },
+    {
+      "name": "Crime & Legal Intel",
+      "icon": "⚖️",
+      "links": [
+        {"name": "Interpol Red Notices", "url": "https://www.interpol.int/How-we-work/Notices/View-Red-Notices", "desc": "Search for internationally wanted persons."},
+        {"name": "FBI Wanted", "url": "https://www.fbi.int/wanted", "desc": "Official FBI fugitive and missing persons database."},
+        {"name": "Inmate Locator (BOP)", "url": "https://www.bop.gov/inmateloc/", "desc": "Search for federal prisoners in the US."},
+        {"name": "JudiSearch", "url": "https://judisearch.id/", "desc": "Search legal records and court decisions (Indonesia Focus)."},
+        {"name": "KPK Wanted", "url": "https://www.kpk.go.id/id/dpo", "desc": "List of fugitives wanted by the Indonesian Anti-Corruption Agency."},
+        {"name": "Crime-Map", "url": "https://www.crimemapping.com/", "desc": "Visualize crime reports in specific areas."}
+      ]
+    },
+    {
+      "name": "Advanced Geo-Tracking",
+      "icon": "📡",
+      "links": [
+        {"name": "SkyVector", "url": "https://skyvector.com/", "desc": "Aeronautical charts and flight planning tools."},
+        {"name": "OpenSky Network", "url": "https://opensky-network.org/", "desc": "Open dataset of live air traffic for researchers."},
+        {"name": "FlightStats", "url": "https://www.flightstats.com/", "desc": "Real-time flight status and airport tracking."},
+        {"name": "TrainLine", "url": "https://www.thetrainline.com/", "desc": "Global train and coach tracking/booking."},
+        {"name": "Bratan.id", "url": "https://bratan.id/", "desc": "Search vehicle plate numbers (Indonesia regional focus)."},
+        {"name": "Live Bus Tracker", "url": "https://www.on-the-bus.com/", "desc": "Real-time bus location tracking in major cities."}
+      ]
+    },
+    {
+      "name": "Identity & Government",
+      "icon": "🆔",
+      "links": [
+        {"name": "Cek DPT Online", "url": "https://cekdptonline.kpu.go.id/", "desc": "Verify Indonesian voter registration data."},
+        {"name": "Passport Index", "url": "https://www.passportindex.org/", "desc": "Compare and analyze global passport strengths."},
+        {"name": "DJP Online Cek", "url": "https://djponline.pajak.go.id/", "desc": "Taxpayer identification and verification (ID)."},
+        {"name": "Samsat Digital", "url": "https://pajakpedia.com/", "desc": "Portal for vehicle and ownership verification."},
+        {"name": "World Bank Data", "url": "https://data.worldbank.org/", "desc": "Global economic and demographic public records."}
+      ]
+    },
+    {
+      "name": "Leak Aggregators (Deep)",
+      "icon": "💣",
+      "links": [
+        {"name": "Hashes.org", "url": "https://hashes.org/", "desc": "Massive hash cracking and search database."},
+        {"name": "RaidForums Archive", "url": "https://raidforums.com/", "desc": "Historical database for leak discussions (Archive)."},
+        {"name": "BreachForums", "url": "https://breached.vc/", "desc": "Current hub for data leak discussions (Use with caution)."},
+        {"name": "Combined Data Leak", "url": "https://leakcheck.net/", "desc": "Search massive combined breach databases."}
+      ]
+    },
+    {
+      "name": "Military & War Intel",
+      "icon": "🎖️",
+      "links": [
+        {"name": "Liveuamap", "url": "https://liveuamap.com/", "desc": "Real-time map of global conflicts and war zones."},
+        {"name": "Oryxspioenkop", "url": "https://www.oryxspioenkop.com/", "desc": "Tracking military equipment losses via visual OSINT."},
+        {"name": "Global Firepower", "url": "https://www.globalfirepower.com/", "desc": "Analytical data on global military strengths."},
+        {"name": "Military Factory", "url": "https://www.militaryfactory.com/", "desc": "Database of global military aircraft, ships, and weapons."},
+        {"name": "IHS Jane's", "url": "https://www.janes.com/", "desc": "Professional defense and security intelligence."},
+        {"name": "Conflict Armament", "url": "https://www.conflictarm.com/", "desc": "Tracking weapons and ammunition in conflict areas."}
+      ]
+    },
+    {
+      "name": "IoT & Camera Recon",
+      "icon": "📹",
+      "links": [
+        {"name": "Insecam", "url": "http://www.insecam.org/", "desc": "The world largest directory of online security cameras."},
+        {"name": "Shodan Maps", "url": "https://maps.shodan.io/", "desc": "Visual map of internet-connected devices globally."},
+        {"name": "SkylineWebcams", "url": "https://www.skylinewebcams.com/", "desc": "Live webcams from around the world in HD."},
+        {"name": "EarthCam", "url": "https://www.earthcam.com/", "desc": "Global network of live streaming webcams."},
+        {"name": "Wigle.net", "url": "https://wigle.net/", "desc": "Database of worldwide WiFi networks and cell towers."},
+        {"name": "Thingful", "url": "https://www.thingful.net/", "desc": "Search engine for the Internet of Things (IoT)."}
+      ]
+    },
+    {
+      "name": "Media & Radio OSINT",
+      "icon": "📻",
+      "links": [
+        {"name": "Radio Garden", "url": "http://radio.garden/", "desc": "Explore live radio by rotating the globe."},
+        {"name": "Listen Notes", "url": "https://www.listennotes.com/", "desc": "The best search engine for podcasts."},
+        {"name": "TV-Radio.id", "url": "https://tv-radio.id/", "desc": "Live stream monitoring for Indonesian media (ID)."},
+        {"name": "World Radio Map", "url": "http://worldradiomap.com/", "desc": "Complete list of radio stations globally by city."},
+        {"name": "Archive.org TV", "url": "https://archive.org/details/tv", "desc": "Searchable archive of TV news broadcasts."}
+      ]
+    },
+    {
+      "name": "Academic & Research",
+      "icon": "🎓",
+      "links": [
+        {"name": "Google Scholar", "url": "https://scholar.google.com/", "desc": "Search for peer-reviewed papers and theses."},
+        {"name": "Sci-Hub", "url": "https://sci-hub.se/", "desc": "Bypass paywalls for academic research papers."},
+        {"name": "ResearchGate", "url": "https://www.researchgate.net/", "desc": "Professional network for scientists and researchers."},
+        {"name": "OCLC WorldCat", "url": "https://www.worldcat.org/", "desc": "Find items in libraries near you and worldwide."},
+        {"name": "Semantic Scholar", "url": "https://www.semanticscholar.org/", "desc": "AI-powered research tool for scientific literature."}
+      ]
+    },
+    {
+      "name": "Specialized OSINT Tools",
+      "icon": "🔧",
+      "links": [
+        {"name": "Hunchly", "url": "https://www.hunch.ly/", "desc": "Automated web evidence collection for investigators."},
+        {"name": "Carbonalyser", "url": "https://github.com/theshiftproject/carbonalyser", "desc": "Analyze the energy consumption of your web activity."},
+        {"name": "Wayback Machine API", "url": "https://archive.org/help/wayback_api.php", "desc": "Automate historical snapshots collection."},
+        {"name": "Tinfoleak", "url": "https://tinfoleak.com/", "desc": "The most complete open source tool for Twitter analysis."}
+      ]
+    },
+    {
+      "name": "Deep Web & Hidden Services",
+      "icon": "🕸️",
+      "links": [
+        {"name": "The Hidden Wiki", "url": "https://thehiddenwiki.org/", "desc": "Censorship-free directory of .onion services."},
+        {"name": "Torch Search", "url": "http://xmh57jrbebeby6lx.onion/", "desc": "One of the oldest search engines on the Tor network."},
+        {"name": "DuckDuckGo Tor", "url": "https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfima3ogsn3ls2v7id.onion/", "desc": "Anonymous search without tracking on Tor."},
+        {"name": "Onion666", "url": "http://666666666tq68se.onion/", "desc": "Deep web directory and link monitoring service."},
+        {"name": "Daniel's Onion Link", "url": "https://onions.danwin1210.me/", "desc": "List of active .onion sites with status checks."},
+        {"name": "Hidden Answers", "url": "http://answerstedhctbek.onion/", "desc": "The Reddit/Quora of the deep web."}
+      ]
+    },
+    {
+      "name": "Financial & Market Intel",
+      "icon": "📈",
+      "links": [
+        {"name": "Investing.com", "url": "https://www.investing.com/", "desc": "Real-time financial markets and stock tracking."},
+        {"name": "TradingView", "url": "https://www.tradingview.com/", "desc": "Advanced charting and social network for traders."},
+        {"name": "EDGAR Search", "url": "https://www.sec.gov/edgar/searchedgar/companysearch.html", "desc": "Official US SEC company filings and reports."},
+        {"name": "Morningstar", "url": "https://www.morningstar.com/", "desc": "Investment research and stock analysis."},
+        {"name": "MarketWatch", "url": "https://www.marketwatch.com/", "desc": "Financial news and real-time market data."},
+        {"name": "CoinMarketCap", "url": "https://coinmarketcap.com/", "desc": "Track crypto prices, volumes, and market caps."}
+      ]
+    },
+    {
+      "name": "Language & Translation OSINT",
+      "icon": "🔠",
+      "links": [
+        {"name": "DeepL Translator", "url": "https://www.deepl.com/", "desc": "The world's most accurate AI translator."},
+        {"name": "Reverso Context", "url": "https://context.reverso.net/", "desc": "Understand words in context for better intelligence."},
+        {"name": "Google Lens", "url": "https://lens.google/", "desc": "Visual translation and object identification."},
+        {"name": "Yandex Translate", "url": "https://translate.yandex.com/", "desc": "Best translation for Russian and Slavic sources."},
+        {"name": "Baidu Fanyi", "url": "https://fanyi.baidu.com/", "desc": "Essential for OSINT on Chinese sources."}
+      ]
+    },
+    {
+      "name": "All-in-One OSINT Gateways",
+      "icon": "🚪",
+      "links": [
+        {"name": "IntelTechniques", "url": "https://inteltechniques.com/tools/", "desc": "Michael Bazzell's legendary OSINT tool collection."},
+        {"name": "Bellingcat Toolkit", "url": "https://www.bellingcat.com/resources/", "desc": "Official investigative tools from Bellingcat."},
+        {"name": "Start.me OSINT", "url": "https://start.me/p/L1rEYQ/osint", "desc": "Massive community-curated OSINT dashboards."},
+        {"name": "CyberDetective", "url": "https://github.com/Go-Cyberdetective/OSINT-Tool-Collection", "desc": "Categorized high-quality OSINT resources."},
+        {"name": "Hatless1d OSINT", "url": "https://hatless1d.com/osint-resources/", "desc": "Professional resources for digital investigators."},
+        {"name": "Sector035", "url": "https://weekinosint.com/", "desc": "Weekly OSINT news and new tool discoveries."},
+        {"name": "OhMyOSINT", "url": "https://github.com/S1lkRoad/OhMyOSINT", "desc": "A curated list of amazing OSINT tools."}
+      ]
+    },
+    {
+      "name": "Miscellaneous & Extra",
+      "icon": "📦",
+      "links": [
+        {"name": "Have I Been Sold?", "url": "https://haveibeensold.app/", "desc": "Check if your data is being sold online."},
+        {"name": "EPIE", "url": "https://github.com/double-p-security/epie", "desc": "Email and phone information enumerator."},
+        {"name": "WhatsMyIP", "url": "https://www.whatsmyip.org/", "desc": "Detailed IP and port scanning tools."},
+        {"name": "DNSDumpster", "url": "https://dnsdumpster.com/", "desc": "Domain research tool for host discovery."},
+        {"name": "BuiltWith", "url": "https://builtwith.com/", "desc": "Find what technology a website is using."},
+        {"name": "Wappalyzer", "url": "https://www.wappalyzer.com/", "desc": "Identify technology stacks on websites."}
+      ]
     }
   ]
 }
