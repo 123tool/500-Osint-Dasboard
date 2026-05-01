@@ -1,10 +1,10 @@
 ## ⚡ 500 OSINT Dasboard
 
-**500 OSINT SPY** adalah *Command Center* intelijen berbasis Node.js yang mengintegrasikan lebih dari **500++ Tools OSINT** ke dalam satu dashboard agresif. Menggunakan desain **Neo-Brutalist High-Fidelity**, platform ini diciptakan untuk efisiensi investigasi digital, *threat hunting*, dan forensik data.
+**500 OSINT SPY** adalah *Command Center* intelijen berbasis Node.js yang mengintegrasikan lebih dari **500++ Tools OSINT** ke dalam satu dashboard agresif. Platform ini diciptakan untuk efisiensi investigasi digital, *threat hunting*, dan forensik data.
 
 > **Status:** Production Ready  
 > **Framework:** Node.js + Express  
-> **UI Style:** Neo-Brutalist (High-Contrast / Bold Border)
+> **UI Style:** Neo High-Contrast / Bold Border
 
 ---
 
@@ -25,3 +25,25 @@ Pastikan kamu sudah menginstall Node.js. Untuk pengguna Termux, jalankan:
 ```bash
 pkg update && pkg upgrade -y
 pkg install nodejs git -y
+```
+### 2. Clone
+```
+git clone https://github.com/123tool/500-Osint-Dasboard.git
+cd 500-Osint-Dasboard
+```
+### 3. Install Dependencies
+```
+npm install
+```
+### 4. Menjalankan
+```
+node app.js
+```
+### 5. Akses Server otomatis berjalan di port 8080. Akses melalui browser :
+```
+http://localhost:8080
+```
+
+​⚠️ Disclaimer
+
+**​Proyek ini dibuat untuk tujuan Edukasi, Keamanan Siber, dan Investigasi Legal. Segala bentuk penyalahgunaan alat yang terhubung melalui portal ini adalah tanggung jawab pengguna sepenuhnya. Tetap patuhi kode etik investigator dan hukum privasi yang berlaku.**
